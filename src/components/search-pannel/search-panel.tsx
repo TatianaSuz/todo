@@ -11,9 +11,8 @@ const SearchPanel: FC<Props> = ({ onSearchChange }) => {
 
   const onHandleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setTerm(event.target.value);
-    onSearchChange(term);
+    onSearchChange(event.target.value);
   };
-
   return (
     <input
       type="text"

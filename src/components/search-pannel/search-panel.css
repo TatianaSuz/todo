@@ -1,4 +1,6 @@
 .search-input {
+  display: flex;
+  min-width: 130px;
   width: auto;
   flex-grow: 1;
   margin-right: 3px;

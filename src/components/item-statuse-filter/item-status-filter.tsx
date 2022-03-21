@@ -25,7 +25,7 @@ const ItemStatusFilter: FC<Props> = ({ filter, onFilterChange }) => {
       </button>
     );
   });
-  return <div className="btn-group">{buttons}</div>;
+  return <div className="btn-filter btn-group">{buttons}</div>;
 };
 
 export default ItemStatusFilter;
