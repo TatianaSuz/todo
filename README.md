@@ -3,7 +3,7 @@ staks:
 -React.js
 -TypeScript
 -Css
--HTNL
+-HTML
 
 
 https://tatianasuz.github.io/todo/
